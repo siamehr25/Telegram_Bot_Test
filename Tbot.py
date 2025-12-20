@@ -14,7 +14,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Hello! I'm your bot. 🚀")
 
 async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text(f"You said:2 {update.message.text}")
+    await update.message.reply_text(f"You said: {update.message.text}")
 
 def main():
     # Create Application
@@ -30,3 +30,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+    
