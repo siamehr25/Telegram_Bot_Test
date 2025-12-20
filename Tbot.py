@@ -11,7 +11,7 @@ logging.basicConfig(
 BOT_TOKEN = "330577938:AAGXd3C-Lt23kUXpF27C1Q9m6CheV077OWQ"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Hello! I'm your local bot. 🚀")
+    await update.message.reply_text("Hello! I'm your bot. 🚀")
 
 async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(f"You said: {update.message.text}")
